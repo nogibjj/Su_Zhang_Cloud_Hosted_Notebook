@@ -31,4 +31,4 @@ generate_and_push:
 	git push
 
 
-all: install lint test format deploy
+all: install lint test format generate_and_push

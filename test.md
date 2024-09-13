@@ -1,1 +1,1 @@
-test
+# Histogram![Figure](figure.png)

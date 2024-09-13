@@ -2,7 +2,14 @@
 Main cli or app entry point
 """
 
-from mylib.calculator import *
+from mylib.calculator import (
+    load_dataset,
+    grab_mean,
+    grab_median,
+    grab_max,
+    grab_std,
+    create_histogram,
+)
 
 
 def calculator_describe():
@@ -12,7 +19,8 @@ def calculator_describe():
 
 def save_to_md():
     with open("test.md", "a") as file:
-        file.write("test")
+        file.write("# Histogram")
+        file.write("![Figure](figure.png)")
 
 
 if __name__ == "__main__":
@@ -21,4 +29,5 @@ if __name__ == "__main__":
     create_histogram(load_dataset(), "alcohol_use")
     print(grab_median(load_dataset(), "alcohol_use"))
     print(grab_std(load_dataset(), "alcohol_use"))
+    print(grab_max(load_dataset(), "alcohol_use"))
     save_to_md()
