@@ -21,5 +21,14 @@ refactor: format lint
 
 deploy:
 	#deploy goes here
-		
+
+generate_and_push:
+	python main.py 
+	git config -local user.email "zhangsu0528@gmail.com"
+	git config -local user.name "zhangsu0528"
+	git add .
+	git commit -m"test"
+	git push
+
+
 all: install lint test format deploy
