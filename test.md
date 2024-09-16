@@ -1,1 +1,0 @@
-# Histogram![Figure](figure.png)# Histogram![Figure](figure.png)# Histogram![Figure](figure.png)

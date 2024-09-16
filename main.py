@@ -10,6 +10,7 @@ from mylib.calculator import (
     grab_max,
     grab_std,
     create_histogram,
+    create_scatter,
 )
 
 example_csv = "https://raw.githubusercontent.com/fivethirtyeight/data/master/drug-use-by-age/drug-use-by-age.csv"
@@ -21,9 +22,11 @@ def calculator_describe(dataset):
 
 
 def save_to_md():
-    with open("test.md", "a") as file:
-        file.write("# Histogram")
-        file.write("![Figure](figure.png)")
+    with open("druguse_summary.md", "a") as file:
+        file.write("# Histogram of Alcohol Use")
+        file.write("![Figure](Histogram.png)")
+        file.write("# Scatterplots of Alcohol, Marijuana, Cocaine, Crack Use by Age")
+        file.write("![Figure](Scatterplot.png)")
 
 
 if __name__ == "__main__":
@@ -49,4 +52,13 @@ if __name__ == "__main__":
         )
     )
     create_histogram(load_dataset(example_csv), "alcohol_use")
+    create_scatter(
+        load_dataset(example_csv),
+        [
+            "alcohol_use",
+            "marijuana_use",
+            "cocaine_use",
+            "crack_use",
+        ],
+    )
     save_to_md()

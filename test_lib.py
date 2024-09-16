@@ -7,6 +7,7 @@ from mylib.calculator import (
     grab_max,
     grab_std,
     create_histogram,
+    create_scatter,
 )
 
 example_csv = "https://raw.githubusercontent.com/fivethirtyeight/data/master/drug-use-by-age/drug-use-by-age.csv"
@@ -21,6 +22,19 @@ def test_load_dataset():
 def test_create_histogram():
     output_hist = create_histogram(load_dataset(example_csv), "alcohol_use")
     assert output_hist is None
+
+
+def test_create_scatter():
+    output_scatter = create_scatter(
+        load_dataset(example_csv),
+        [
+            "alcohol_use",
+            "marijuana_use",
+            "cocaine_use",
+            "crack_use",
+        ],
+    )
+    assert output_scatter is None
 
 
 def test_stats():
