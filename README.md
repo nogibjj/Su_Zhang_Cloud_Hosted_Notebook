@@ -1,3 +1,11 @@
+[![Format](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/format.yml)
+
+[![Install](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/install.yml)
+
+[![Lint](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/lint.yml)
+
+[![Test](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/test.yml)
+
 # Su Zhang Individual Project #1 
 
 # Purpose of the Project
@@ -11,7 +19,7 @@ https://raw.githubusercontent.com/fivethirtyeight/data/master/drug-use-by-age/dr
 # Project structure:
 
 * `Makefile`: 
-    - **install**: install requirements.txt 
+    - **install**: install `requirements.txt`
     - **test**: this project used **nbval** plugin to validate the jupyter notebook; runs **pytest** for both mylib and main; runs all test files matching the pattern test_*.py
     - **format**: format using black formatter
     - **lint**: this project used **Ruff** instead of pylint for testing, which makes the process faster
