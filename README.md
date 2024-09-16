@@ -8,7 +8,7 @@ This project aims to analyze a dataset on drug use, which includes the statistic
 
 https://raw.githubusercontent.com/fivethirtyeight/data/master/drug-use-by-age/drug-use-by-age.csv
 
-# Project Structure 
+# Project structure:
 
 * `Makefile`: 
     - **install**: install requirements.txt 
