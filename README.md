@@ -10,15 +10,14 @@ https://raw.githubusercontent.com/fivethirtyeight/data/master/drug-use-by-age/dr
 
 # Project Structure 
 
-- * `Makefile`: 
+* `Makefile`: 
     - **install**: install requirements.txt 
     - **test**: this project used **nbval** plugin to validate the jupyter notebook; runs **pytest** for both mylib and main; runs all test files matching the pattern test_*.py
     - **format**: format using black formatter
     - **lint**: this project used **Ruff** instead of pylint for testing, which makes the process faster
     - **generate_and_push**: this project added generate_and_push function to automatically add and push everything to github repo
 
-* `requirements.txt`: 
-    - specify pinned packages needed for this project, including **pandas, matplotlib, nbval, tabulate, jupyter**
+* `requirements.txt`: specify pinned packages needed for this project, including **pandas, matplotlib, nbval, tabulate, jupyter**
 
 * `my_lib`: includes library file `calculator.py` that contains all the functions defined to conduct statistics analysis towards the dataset
 
