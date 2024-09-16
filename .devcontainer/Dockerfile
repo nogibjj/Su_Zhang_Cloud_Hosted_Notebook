@@ -1,5 +1,3 @@
-# See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/codespaces-linux/.devcontainer/base.Dockerfile
-
 FROM mcr.microsoft.com/vscode/devcontainers/universal:2-focal
 
 # [Optional] Uncomment this section to install additional OS packages.
@@ -8,7 +6,7 @@ FROM mcr.microsoft.com/vscode/devcontainers/universal:2-focal
 RUN apt-get update && apt-get -y install --no-install-recommends \
    python3.8-venv \
    gcc 
-   
+
 ARG USER="codespace"
 ARG VENV_PATH="/home/${USER}/venv"
 COPY requirements.txt /tmp/

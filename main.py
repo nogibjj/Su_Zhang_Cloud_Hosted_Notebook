@@ -1,5 +1,6 @@
 """
-Main cli or app entry point
+Main file to apply the functions defined in calculator.py
+Get statistics output from specific data input
 """
 
 from mylib.calculator import (
@@ -11,9 +12,11 @@ from mylib.calculator import (
     create_histogram,
 )
 
+example_csv = "https://raw.githubusercontent.com/fivethirtyeight/data/master/drug-use-by-age/drug-use-by-age.csv"
 
-def calculator_describe():
-    c = load_dataset()
+
+def calculator_describe(dataset):
+    c = load_dataset(dataset)
     return c.describe()
 
 
@@ -24,10 +27,26 @@ def save_to_md():
 
 
 if __name__ == "__main__":
-    print(calculator_describe())
-    print(grab_mean(load_dataset(), "alcohol_use"))
-    create_histogram(load_dataset(), "alcohol_use")
-    print(grab_median(load_dataset(), "alcohol_use"))
-    print(grab_std(load_dataset(), "alcohol_use"))
-    print(grab_max(load_dataset(), "alcohol_use"))
+    print(calculator_describe(example_csv))
+    print(
+        "The mean of alcohol use is {:.2f}".format(
+            grab_mean(load_dataset(example_csv), "alcohol_use")
+        )
+    )
+    print(
+        "The median of alcohol use is {:.2f}".format(
+            grab_median(load_dataset(example_csv), "alcohol_use")
+        )
+    )
+    print(
+        "The standard deviation of alcohol use is {:.2f}".format(
+            grab_std(load_dataset(example_csv), "alcohol_use")
+        )
+    )
+    print(
+        "The maximum of alcohol use is {:.2f}".format(
+            grab_max(load_dataset(example_csv), "alcohol_use")
+        )
+    )
+    create_histogram(load_dataset(example_csv), "alcohol_use")
     save_to_md()

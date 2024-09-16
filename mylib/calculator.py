@@ -1,13 +1,10 @@
-"""library file"""
+"""library file that lists out all the necessary calculation functions"""
 
 import pandas as pd
 import matplotlib.pyplot as plt
 
-dataset = "https://raw.githubusercontent.com/fivethirtyeight/data/master/drug-use-by-age/drug-use-by-age.csv"
-check = pd.read_csv(dataset)
 
-
-def load_dataset():
+def load_dataset(dataset):
     df = pd.read_csv(dataset)
     return df
 
