@@ -42,7 +42,7 @@ https://raw.githubusercontent.com/fivethirtyeight/data/master/drug-use-by-age/dr
 
 * `README.me`: project documentation that introduces purpose, data source, and structure
 
-* `githubactions`: separates the commands into **four configuration files** - `install.yml`, `format.yml`, `test.yml`, `lint.yml`. In `test.yml, I added the command of generate_and_push, which will push the edits to the github repo automatically after testing
+* `githubactions`: separates the commands into **four configuration files** - `install.yml`, `format.yml`, `test.yml`, `lint.yml`. In `test.yml`, I added the command of generate_and_push, which will push the edits to the github repo automatically after testing
 
 * `devcontainer`: set up a development environment in Github Codespace, and Dockerfile to define the base environment
 
