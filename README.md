@@ -8,6 +8,9 @@
 
 # Su Zhang Individual Project #1 
 
+# Youtube Link
+[Youtube Link](https://www.youtube.com/@Su-Zhang)
+
 # Purpose of the Project
 
 This project aims to analyze a dataset on drug use, which includes the statistics on the sample population's alcolhol, marijuana, cocaine, and crack use grouped by age. This project primarily used Pandas and Matplotlib packages to analyze the distribution of alcohol use, summary statistics (mean, median, max, standard variation) of alcolhol, marijuana, cocaine, and crack use, as well as a scatterplot that illustrates the frequency of these drug uses of different age groups.
@@ -16,7 +19,7 @@ This project aims to analyze a dataset on drug use, which includes the statistic
 
 https://raw.githubusercontent.com/fivethirtyeight/data/master/drug-use-by-age/drug-use-by-age.csv
 
-# Project structure:
+# Project Structure:
 
 * `Makefile`: 
     - **install**: install `requirements.txt`
@@ -50,6 +53,11 @@ https://raw.githubusercontent.com/fivethirtyeight/data/master/drug-use-by-age/dr
 * `Scatterplot.png`: scatterplot to illustrate the frequency of **alcolhol, marijuana, cocaine, and crack use of different age groups**
 
 * `Data_Summary.pdf`: Output pdf generated from Jupyter Notebook to showcase the analysis output
+
+# Data Visualizations
+
+![Histogram](Histogram.png)
+![Scatterplot](Scatterplot.png)
 
 # Template for the Project:
 https://github.com/nogibjj/python-ruff-template
