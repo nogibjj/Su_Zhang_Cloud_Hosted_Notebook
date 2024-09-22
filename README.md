@@ -8,8 +8,8 @@
 
 # Su Zhang Individual Project #1 
 
-# Youtube Link
-[Youtube Link](https://www.youtube.com/@Su-Zhang)
+# Youtube Video Link
+[Youtube Link](https://youtu.be/0_GzGDGC9pw)
 
 # Purpose of the Project
 
