@@ -1,12 +1,9 @@
-[![Format](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/format.yml)
 
-[![Install](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/install.yml)
 
-[![Lint](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/lint.yml)
+# Su Zhang Cloud-Hosted Jupyter Notebook 
 
-[![Test](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Su_Zhang_Individual_Project_1/actions/workflows/test.yml)
-
-# Su Zhang Individual Project #1 
+# Cloud-Hosted Jupyter Notebook Link
+[Google Colab link] (https://colab.research.google.com/drive/1cKTWTngyKSo9G_E0BD3FjmWSlqv_vnQ4?usp=sharing)
 
 # Youtube Video Link
 [Youtube Link](https://youtu.be/0_GzGDGC9pw)
