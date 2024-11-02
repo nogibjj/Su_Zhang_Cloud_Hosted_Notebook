@@ -3,14 +3,16 @@
 # Su Zhang Cloud-Hosted Jupyter Notebook 
 
 # Cloud-Hosted Jupyter Notebook Link
-[Google Colab link] (https://colab.research.google.com/drive/1cKTWTngyKSo9G_E0BD3FjmWSlqv_vnQ4?usp=sharing)
+https://colab.research.google.com/drive/1cKTWTngyKSo9G_E0BD3FjmWSlqv_vnQ4?usp=sharing
 
 # Youtube Video Link
 [Youtube Link](https://youtu.be/0_GzGDGC9pw)
 
 # Purpose of the Project
 
-This project aims to analyze a dataset on drug use, which includes the statistics on the sample population's alcolhol, marijuana, cocaine, and crack use grouped by age. This project primarily used Pandas and Matplotlib packages to analyze the distribution of alcohol use, summary statistics (mean, median, max, standard variation) of alcolhol, marijuana, cocaine, and crack use, as well as a scatterplot that illustrates the frequency of these drug uses of different age groups.
+This project aims to set up a cloud-hosted Jupyter Notebook using Google Colab and perform data manipulation tasks on a sample dataset. 
+
+More specifically, this project analyzed a dataset on drug use, which includes the statistics on the sample population's alcolhol, marijuana, cocaine, and crack use grouped by age. This project primarily used Pandas and Matplotlib packages to analyze the distribution of alcohol use, summary statistics (mean, median, max, standard variation) of alcolhol, marijuana, cocaine, and crack use, as well as a scatterplot that illustrates the frequency of these drug uses of different age groups.
 
 # Source of Data:
 
