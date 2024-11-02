@@ -1,3 +1,7 @@
+[![Install](https://github.com/nogibjj/Su_Zhang_Cloud_Hosted_Notebook/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Su_Zhang_Cloud_Hosted_Notebook/actions/workflows/install.yml)
+[![Test](https://github.com/nogibjj/Su_Zhang_Cloud_Hosted_Notebook/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Su_Zhang_Cloud_Hosted_Notebook/actions/workflows/test.yml)
+[![Format](https://github.com/nogibjj/Su_Zhang_Cloud_Hosted_Notebook/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Su_Zhang_Cloud_Hosted_Notebook/actions/workflows/format.yml)
+[![Lint](https://github.com/nogibjj/Su_Zhang_Cloud_Hosted_Notebook/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Su_Zhang_Cloud_Hosted_Notebook/actions/workflows/lint.yml)
 
 
 # Su Zhang Cloud-Hosted Jupyter Notebook 
